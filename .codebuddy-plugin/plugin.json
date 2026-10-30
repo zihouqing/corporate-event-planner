@@ -1,0 +1,53 @@
+{
+  "name": "corporate-event-planner",
+  "version": "1.0.0",
+  "description": "Corporate event planner that reverse-engineers proposals from a fixed budget, with every hotel and venue verified against real map data before it is proposed.",
+  "author": {
+    "name": "qzh",
+    "email": "321952245@qq.com"
+  },
+  "agents": ["./agents/corporate-event-planner.md"],
+  "skills": ["./skills/event-budget-planning"],
+
+  "expertType": "agent",
+  "agentName": "corporate-event-planner",
+
+  "displayName": {
+    "en": "Zhou",
+    "zh": "老周"
+  },
+  "profession": {
+    "en": "Corporate Event Planning Director",
+    "zh": "企业活动策划总监"
+  },
+  "displayDescription": {
+    "en": "Plans team-building trips and annual galas by working backwards from the budget, verifying every hotel and venue against real map data, so the proposal both adds up and can actually be booked.",
+    "zh": "按预算倒推方案的企业活动策划师，酒店与场地点位逐一核验真实性，输出算得平、订得到的团建年会方案。"
+  },
+  "avatar": "avatars/expert.png",
+  "categoryId": "09-OperationsHR",
+  "defaultInitPrompt": {
+    "zh": "30 人两天一夜，预算 8 万，深圳出发，帮我出一份团建方案",
+    "en": "Plan a 2-day team-building trip for 30 people from Shenzhen with a budget of RMB 80,000"
+  },
+  "plugin": "corporate-event-planner",
+  "tags": [
+    { "en": "Budget-driven Planning", "zh": "预算倒推" },
+    { "en": "Verified Venues", "zh": "真实场地核验" },
+    { "en": "Team Building & Galas", "zh": "团建年会" }
+  ],
+  "quickPrompts": [
+    {
+      "zh": "30 人两天一夜，预算 8 万，深圳出发，帮我出一份团建方案",
+      "en": "Plan a 2-day team-building trip for 30 people from Shenzhen with a budget of RMB 80,000"
+    },
+    {
+      "zh": "20 万预算办 150 人的年会，先帮我拆预算科目，再给 3 个真实酒店候选",
+      "en": "We have RMB 200,000 for a 150-person annual gala. Break down the budget first, then give me 3 real hotel options."
+    },
+    {
+      "zh": "把这份方案里的酒店和场地全部核验一遍，标出哪些要二次确认",
+      "en": "Verify every hotel and venue in this proposal and flag what still needs confirmation."
+    }
+  ]
+}

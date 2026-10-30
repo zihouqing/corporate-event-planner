@@ -1,0 +1,27 @@
+# ===== 密钥：绝不入库 =====
+amap_key.txt
+**/amap_key.txt
+.amap_key
+.env
+
+# ===== 打包与构建产物 =====
+dist/
+*.zip
+
+# ===== Python =====
+__pycache__/
+*.py[cod]
+*.egg-info/
+.venv/
+venv/
+
+# ===== WorkBuddy 会话标记 =====
+.created-by-session
+
+# ===== 系统与编辑器 =====
+.DS_Store
+Thumbs.db
+desktop.ini
+.vscode/
+.idea/
+*.swp
